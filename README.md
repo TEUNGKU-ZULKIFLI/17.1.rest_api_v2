@@ -34,6 +34,13 @@ npm -v
 
 Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. Jika tidak, Anda perlu menginstalnya terlebih dahulu dengan mengunjungi [halaman unduhan Node.js](https://nodejs.org/).
 
+#### 01.1 Menginstall package yang diperlukan melalui npm
+Installasi package express
+
+```bash
+npm install express --save
+```
+
 ### 02. Ekstrak Folder 📁 `api-server.rar`
 - **BISA KLIK LINK DAN UNDUH COMPONENTNYA** https://drive.google.com/drive/folders/10okHX_-ix9Y2POjtt5bPzR4YtutqTTLH
 
