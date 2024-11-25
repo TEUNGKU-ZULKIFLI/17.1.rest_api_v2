@@ -65,9 +65,7 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 
 ### 04. Jalankan Aplikasi Flutter
 
-1. Buka folder `lib` dalam proyek Flutter Anda dan arahkan ke file `main.dart`.
-2. Buka terminal dan arahkan ke folder root proyek Flutter (tempat file `pubspec.yaml` berada).
-3. Jalankan perintah berikut untuk memulai aplikasi Flutter:
+1.Jalankan perintah berikut untuk memulai aplikasi Flutter:
 
    ```bash
    flutter run
