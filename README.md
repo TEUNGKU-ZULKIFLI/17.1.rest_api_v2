@@ -127,3 +127,11 @@ Setelah Anda menguji semua operasi CRUD (Buat, Baca, Perbarui, Hapus) dan semuan
 - Jika aplikasi Flutter tidak menampilkan data, pastikan server berjalan dengan benar dan aplikasi Anda dapat terhubung ke server di `http://localhost:3000`.
 
 ---
+
+# SHOWCASE
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TEUNGKU-ZULKIFLI/PROJECT-FLUTTER/refs/heads/master/asset/img/017.V2.1.png" width="200px"/>
+  <img src="https://raw.githubusercontent.com/TEUNGKU-ZULKIFLI/PROJECT-FLUTTER/refs/heads/master/asset/img/017.V2.2.png" width="200px"/>
+  <img src="https://raw.githubusercontent.com/TEUNGKU-ZULKIFLI/PROJECT-FLUTTER/refs/heads/master/asset/img/017.V2.3.png" width="200px"/>
+  <img src="https://raw.githubusercontent.com/TEUNGKU-ZULKIFLI/PROJECT-FLUTTER/refs/heads/master/asset/img/017.V2.4.png" width="200px"/>
+</div>
