@@ -124,7 +124,7 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 
 - Jika Anda mengalami masalah dengan server backend (seperti tidak bisa mengambil data atau kesalahan lainnya), pastikan server sudah berjalan dengan memeriksa terminal untuk kesalahan.
 - Jika aplikasi Flutter tidak menampilkan data, pastikan server berjalan dengan benar dan aplikasi Anda dapat terhubung ke server di `http://localhost:3000`.
-- Jika Anda merunningnya dengan no [2], [3], dan lainnya bisa digantikan di lib\service\api_service.dart dari line 4-5 okey 👌🏻:
+- Jika Anda merunningnya dengan no [2], [3], dan lainnya bisa digantikan di `lib\service\api_service.dart` dari line 4-5 okey 👌🏻:
    ```EXAMPLE
    class ApiService {
    static const String baseUrl = 'http://localhost:3000/api/resources';
@@ -134,8 +134,8 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
    class ApiService {
    static const String baseUrl = 'http://<ip4 yang di wifi yang terhubung>:3000/api/resources'; 
    ```
-
 ---
+## **PASTIKAN SELALU MENGHIDUPKAN SERVER TERLEBIH DAHULU BARU DISUSUL DENGAN FLUTTER RUN 😁.**
 
 # SHOWCASE
 <div align="center">
