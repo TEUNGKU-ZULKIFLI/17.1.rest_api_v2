@@ -42,9 +42,9 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 ### 1. Buka terminal atau command prompt.
 ### 2. Arahkan ke folder `api-server`. Anda bisa melakukannya dengan menggunakan perintah `cd` di terminal:
 
-   ```bash
-   cd path_ke_folder_ekstrak/api-server
-   ```
+```bash
+cd path_ke_folder_ekstrak/api-server
+```
 
    Gantilah `path_ke_folder_ekstrak` dengan lokasi folder tempat Anda mengekstrak file `api-server.rar`.
    **SECARA SHORTCUT CLICK KANAN FOLDER api-server DAN PILIH OPEN IN TERMINAL 😁👌🏻**
@@ -53,14 +53,14 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 
    **Installasi package express**
 
-      ```bash
-      npm install express --save
-      ```
+```bash
+npm install express --save
+```
    **Dan disusul**
 
-      ```bash
-      node server.js
-      ```
+```bash
+node server.js
+```
 
    Ini akan memulai server API yang dapat diakses di `http://localhost:3000`. Server backend sekarang berjalan dan siap menerima permintaan.
 
@@ -68,9 +68,9 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 
 ### 1.Jalankan perintah berikut untuk memulai aplikasi Flutter:
 
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
 
    Ini akan meluncurkan aplikasi Flutter. Anda akan melihat daftar sumber daya yang diambil dari server backend (yang berjalan di `localhost:3000`).
 
