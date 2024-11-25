@@ -47,6 +47,7 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
    ```
 
    Gantilah `path_ke_folder_ekstrak` dengan lokasi folder tempat Anda mengekstrak file `api-server.rar`.
+   **SECARA SHORTCUT CLICK KANAN FOLDER api-server DAN PILIH OPEN IN TERMINAL 😁👌🏻**
 
 ### 3. Setelah berada di dalam folder `api-server`, jalankan server dengan perintah berikut:
 
