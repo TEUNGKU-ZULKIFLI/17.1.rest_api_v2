@@ -2,7 +2,7 @@
 
 Proyek ini adalah aplikasi manajemen sumber daya yang lengkap, terdiri dari backend (server API) dan frontend yang dibangun dengan Flutter. Aplikasi ini memungkinkan pengguna untuk mengelola daftar sumber daya (operasi CRUD: Create, Read, Update, dan Delete).
 
-## Prasyarat
+# Prasyarat
 
 Sebelum memulai, pastikan Anda sudah menginstal hal-hal berikut:
 
@@ -18,9 +18,9 @@ Sebelum memulai, pastikan Anda sudah menginstal hal-hal berikut:
 
 
 
-## Langkah-langkah untuk Mengatur
+# Langkah-langkah untuk Mengatur
 
-### 01. Pastikan Node.js Terinstal
+## 01. Pastikan Node.js Terinstal
 
 Pastikan Node.js sudah terinstal di sistem Anda. Untuk memeriksanya, buka terminal atau command prompt dan jalankan perintah berikut:
 
@@ -34,13 +34,13 @@ npm -v
 
 Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. Jika tidak, Anda perlu menginstalnya terlebih dahulu dengan mengunjungi [halaman unduhan Node.js](https://nodejs.org/).
 
-### 02. Ekstrak Folder 📁 `api-server.rar`
+## 02. Ekstrak Folder 📁 `api-server.rar`
 - **BISA KLIK LINK DAN UNDUH COMPONENTNYA** https://drive.google.com/drive/folders/10okHX_-ix9Y2POjtt5bPzR4YtutqTTLH
 
-### 03. Jalankan Server API
+## 03. Jalankan Server API
 
-1. Buka terminal atau command prompt.
-2. Arahkan ke folder `api-server`. Anda bisa melakukannya dengan menggunakan perintah `cd` di terminal:
+### 1. Buka terminal atau command prompt.
+### 2. Arahkan ke folder `api-server`. Anda bisa melakukannya dengan menggunakan perintah `cd` di terminal:
 
    ```bash
    cd path_ke_folder_ekstrak/api-server
@@ -48,24 +48,24 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 
    Gantilah `path_ke_folder_ekstrak` dengan lokasi folder tempat Anda mengekstrak file `api-server.rar`.
 
-3. Setelah berada di dalam folder `api-server`, jalankan server dengan perintah berikut:
+### 3. Setelah berada di dalam folder `api-server`, jalankan server dengan perintah berikut:
 
-**Installasi package express**
+   **Installasi package express**
 
-   ```bash
-   npm install express --save
-   ```
-**Dan disusul**
+      ```bash
+      npm install express --save
+      ```
+   **Dan disusul**
 
-   ```bash
-   node server.js
-   ```
+      ```bash
+      node server.js
+      ```
 
    Ini akan memulai server API yang dapat diakses di `http://localhost:3000`. Server backend sekarang berjalan dan siap menerima permintaan.
 
-### 04. Jalankan Aplikasi Flutter
+## 04. Jalankan Aplikasi Flutter
 
-1.Jalankan perintah berikut untuk memulai aplikasi Flutter:
+### 1.Jalankan perintah berikut untuk memulai aplikasi Flutter:
 
    ```bash
    flutter run
@@ -76,31 +76,31 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
    **Periksa apakah Data Ditampilkan**:  
    Jika semuanya sudah diatur dengan benar, Anda akan melihat daftar sumber daya yang ditampilkan di layar. Sumber daya ini diambil dari API backend.
 
-### 05. Uji Operasi CRUD (Buat, Baca, Perbarui, Hapus)
+## 05. Uji Operasi CRUD (Buat, Baca, Perbarui, Hapus)
 
-Sekarang Anda bisa menguji semua operasi CRUD melalui aplikasi Flutter:
+### **Sekarang Anda bisa menguji semua operasi CRUD melalui aplikasi Flutter:**
 
-1. **Create (Buat)**:  
+### 1. **Create (Buat)**:  
    - Klik tombol "Tambah" (tombol aksi mengambang di layar).
    - Isi formulir dengan detail sumber daya baru (Nama dan ID Mahasiswa).
    - Klik tombol "Kirim" untuk mengirim data ke backend dan menambahkan sumber daya baru.
 
-2. **Update (Perbarui)**:  
+### 2. **Update (Perbarui)**:  
    - Ketuk salah satu sumber daya dalam daftar.
    - Aplikasi akan membuka layar untuk mengedit. Perbarui kolom (Nama atau ID Mahasiswa) dan klik "Perbarui".
    - Data yang diperbarui akan dikirimkan ke backend.
 
-3. **Delete (Hapus)**:  
+### 3. **Delete (Hapus)**:  
    - Ketuk ikon sampah di sebelah sumber daya yang ingin dihapus.
    - Sebuah dialog konfirmasi akan muncul. Jika Anda mengonfirmasi, sumber daya tersebut akan dihapus dari frontend dan backend.
 
-### 06. 💥 Akhirnya
+## 06. 💥 Akhirnya
 
-Setelah Anda menguji semua operasi CRUD (Buat, Baca, Perbarui, Hapus) dan semuanya berjalan dengan baik, Anda selesai! 🎉
+### **Setelah Anda menguji semua operasi CRUD (Buat, Baca, Perbarui, Hapus) dan semuanya berjalan dengan baik, Anda selesai! 🎉**
 
 ---
 
-## Struktur Proyek
+# Struktur Proyek
 
 - **Backend (Server API)**:
   - Server backend dibangun menggunakan Node.js dan Express. Server ini mendengarkan di `http://localhost:3000` dan menangani permintaan untuk mengelola sumber daya (GET, POST, PUT, DELETE).
@@ -119,10 +119,20 @@ Setelah Anda menguji semua operasi CRUD (Buat, Baca, Perbarui, Hapus) dan semuan
 
 ---
 
-## Pemecahan Masalah
+# Pemecahan Masalah
 
 - Jika Anda mengalami masalah dengan server backend (seperti tidak bisa mengambil data atau kesalahan lainnya), pastikan server sudah berjalan dengan memeriksa terminal untuk kesalahan.
 - Jika aplikasi Flutter tidak menampilkan data, pastikan server berjalan dengan benar dan aplikasi Anda dapat terhubung ke server di `http://localhost:3000`.
+- Jika Anda merunningnya dengan no [2], [3], dan lainnya bisa digantikan di lib\service\api_service.dart dari line 4-5 okey 👌🏻:
+   ```EXAMPLE
+   class ApiService {
+   static const String baseUrl = 'http://localhost:3000/api/resources';
+   ```
+   **dengan**
+   ```CHANGE
+   class ApiService {
+   static const String baseUrl = 'http://<ip4 yang di wifi yang terhubung>:3000/api/resources'; 
+   ```
 
 ---
 
