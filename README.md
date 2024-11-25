@@ -56,6 +56,13 @@ cd path_ke_folder_ekstrak/api-server
 ```bash
 npm install express --save
 ```
+
+   **Installasi package cors**
+
+```bash
+npm install cors --save
+```
+
    **Dan disusul**
 
 ```bash
@@ -99,12 +106,11 @@ flutter run
 
 ### **Setelah Anda menguji semua operasi CRUD (Buat, Baca, Perbarui, Hapus) dan semuanya berjalan dengan baik, Anda selesai! 🎉**
 
----
 
 # Struktur Proyek
 
 - **Backend (Server API)**:
-  - Server backend dibangun menggunakan Node.js dan Express. Server ini mendengarkan di `http://localhost:3000` dan menangani permintaan untuk mengelola sumber daya (GET, POST, PUT, DELETE).
+  - Server backend dibangun menggunakan Node.js, Express, Cors. Server ini mendengarkan di `http://localhost:3000` dan `http://<alamat_IP>:3000` serta menangani permintaan untuk mengelola sumber daya (GET, POST, PUT, DELETE).
   
   - **File Utama**:
     - `server.js`: File utama backend yang menjalankan server API.
@@ -124,17 +130,19 @@ flutter run
 
 - Jika Anda mengalami masalah dengan server backend (seperti tidak bisa mengambil data atau kesalahan lainnya), pastikan server sudah berjalan dengan memeriksa terminal untuk kesalahan.
 - Jika aplikasi Flutter tidak menampilkan data, pastikan server berjalan dengan benar dan aplikasi Anda dapat terhubung ke server di `http://localhost:3000`.
-- Jika Anda merunningnya dengan no [2], [3], dan lainnya bisa digantikan di `lib\service\api_service.dart` dari line 4-5 okey 👌🏻:
-   ```EXAMPLE
-   class ApiService {
-   static const String baseUrl = 'http://localhost:3000/api/resources';
-   ```
-   **dengan**
-   ```CHANGE
-   class ApiService {
-   static const String baseUrl = 'http://<ip4 yang di wifi yang terhubung>:3000/api/resources'; 
-   ```
----
+> Jika Anda merunningnya dengan no **`[2]Google Chrome`** , **`[3]Edge`**, dan lainnya, bisa mengganti di `lib\service\api_service.dart` pada baris 4-5:
+>
+> ```dart
+> class ApiService {
+> static const String baseUrl = 'http://localhost:3000/api/resources';
+> ```
+> 
+> **Ganti menjadi:**
+> ```dart
+> class ApiService {
+> static const String baseUrl = 'http://<alamat_IP>:3000/api/resources';
+> ```
+
 ## **PASTIKAN SELALU MENGHIDUPKAN SERVER TERLEBIH DAHULU BARU DISUSUL DENGAN FLUTTER RUN 😁.**
 
 # SHOWCASE
