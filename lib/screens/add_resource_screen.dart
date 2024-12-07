@@ -10,7 +10,7 @@ class AddResourceScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Add Resource')),
+      appBar: AppBar(title: Text('TAMAH DATA ➕')),
       body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Form(
@@ -19,15 +19,17 @@ class AddResourceScreen extends StatelessWidget {
             children: [
               TextFormField(
                 controller: _nameController,
-                decoration: InputDecoration(labelText: 'Name'),
+                decoration:
+                    InputDecoration(labelText: 'Nan', icon: Icon(Icons.person)),
                 validator: (value) =>
-                    value!.isEmpty ? 'Please enter a name' : null,
+                    value!.isEmpty ? 'NAN NEU PASOE MEUTUAH😁' : null,
               ),
               TextFormField(
                 controller: _studentIdController,
-                decoration: InputDecoration(labelText: 'Student ID'),
+                decoration: InputDecoration(
+                    labelText: 'Nim', icon: (Icon(Icons.school))),
                 validator: (value) =>
-                    value!.isEmpty ? 'Please enter a student ID' : null,
+                    value!.isEmpty ? 'NIM NEUPASOE CHIET MUTUAH😁' : null,
               ),
               SizedBox(height: 20),
               ElevatedButton(
@@ -45,7 +47,7 @@ class AddResourceScreen extends StatelessWidget {
                     });
                   }
                 },
-                child: Text('Submit'),
+                child: Text('TAMAH DATA📝'),
               ),
             ],
           ),

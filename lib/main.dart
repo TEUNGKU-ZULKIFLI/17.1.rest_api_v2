@@ -39,7 +39,7 @@ class _ResourceListScreenState extends State<ResourceListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Resource List'),
+        title: Text('DATA YANG NA 📚'),
       ),
       body: FutureBuilder<List<dynamic>>(
         future: resources,
@@ -49,7 +49,7 @@ class _ResourceListScreenState extends State<ResourceListScreen> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return Center(child: Text('No resources found'));
+            return Center(child: Text('HANA DATA HAY MUTUAH🤣'));
           } else {
             return ListView.builder(
               itemCount: snapshot.data!.length,
@@ -84,13 +84,12 @@ class _ResourceListScreenState extends State<ResourceListScreen> {
                           showDialog(
                             context: context,
                             builder: (context) => AlertDialog(
-                              title: Text('Delete Resource'),
-                              content: Text(
-                                  'Are you sure you want to delete this resource?'),
+                              title: Text('HAPOS DATA NYOE 🚮'),
+                              content: Text('BUTOY NEUK HAPOS DATA NYOE?'),
                               actions: [
                                 TextButton(
                                   onPressed: () => Navigator.pop(context),
-                                  child: Text('Cancel'),
+                                  child: Text('HANA JADEH⛔'),
                                 ),
                                 TextButton(
                                   onPressed: () {
@@ -108,7 +107,7 @@ class _ResourceListScreenState extends State<ResourceListScreen> {
                                       ));
                                     });
                                   },
-                                  child: Text('Delete'),
+                                  child: Text('NYOE NEUK HAPOS🗑️'),
                                 ),
                               ],
                             ),
