@@ -34,8 +34,8 @@ npm -v
 
 Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. Jika tidak, Anda perlu menginstalnya terlebih dahulu dengan mengunjungi [halaman unduhan Node.js](https://nodejs.org/).
 
-## 02. Ekstrak Folder 📁 `api-server.rar`
-- **BISA KLIK LINK DAN UNDUH COMPONENTNYA** https://drive.google.com/drive/folders/10okHX_-ix9Y2POjtt5bPzR4YtutqTTLH
+## 02. Clone repo 📁 `api-server`
+- **BISA KLIK LINK DAN CLONE** https://github.com/TEUNGKU-ZULKIFLI/api-server
 
 ## 03. Jalankan Server API
 
@@ -43,10 +43,10 @@ Jika perintah ini mengembalikan versi Node.js, berarti Node.js sudah terinstal. 
 ### 2. Arahkan ke folder `api-server`. Anda bisa melakukannya dengan menggunakan perintah `cd` di terminal:
 
 ```bash
-cd path_ke_folder_ekstrak/api-server
+cd path_ke_folder_cloning/api-server
 ```
 
-   Gantilah `path_ke_folder_ekstrak` dengan lokasi folder tempat Anda mengekstrak file `api-server.rar`.
+   Gantilah `path_ke_folder_cloning` dengan lokasi folder tempat Anda mengclone `api-server`.
    **SECARA SHORTCUT CLICK KANAN FOLDER api-server DAN PILIH OPEN IN TERMINAL 😁👌🏻**
 
 ### 3. Setelah berada di dalam folder `api-server`, jalankan server dengan perintah berikut:
